@@ -1,0 +1,28 @@
+{
+    "emulator": {
+        "host": "127.0.0.1",
+        "port": 5037,
+        "device_serial": "None",
+        "device_port": 5555,
+        "emulator_path": "E:/MuMu/MuMu Player 12",
+        "adb_path": "E:/develop/platform-tools/adb.exe",
+        "username": "",
+        "password": ""
+    },
+    "template_dir": "assets/templates",
+    "screenshot_dir": "screenshots",
+    "tasks": {
+        "login": false,
+        "recruitment": false,
+        "base": false,
+        "combat": true,
+        "reward": false
+    },
+    "combat": {
+        "use_sanity_item": false,
+        "max_times": 5
+    },
+    "recruitment": {
+        "use_expedited": false
+    }
+}

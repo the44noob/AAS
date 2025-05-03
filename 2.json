@@ -1,0 +1,32 @@
+{
+    "retry_settings": {
+        "adb_connection_retries": 3,
+        "max_operation_retries": 5
+    },
+    "operation_delays": {
+        "tap_delay": 0.5,
+        "swipe_delay": 1.0,
+        "between_operations": 2.0
+    },
+    "emulator": {
+        "host": "127.0.0.1",
+        "port": 5554,
+        "device_serial": null
+    },
+    "template_dir": "assets/templates",
+    "screenshot_dir": "screenshots",
+    "tasks": {
+        "login": true,
+        "recruitment": false,
+        "base": false,
+        "combat": false,
+        "reward": false
+    },
+    "combat": {
+        "use_sanity_item": false,
+        "max_times": 5
+    },
+    "recruitment": {
+        "use_expedited": false
+    }
+}
